@@ -1,0 +1,298 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.navbar{
+    width: 100%;
+    height: 77px;
+    background-color: white;
+    position: relative;
+}
+.logo{
+    width: 75px;
+    display: inline-block;
+    transform: translateY(0px);
+    position: absolute;
+    left: 30px;
+    top: 15px;
+}
+.infos{
+    width: 836px;
+    height: 77px;
+    align-items: end;
+    display: inline-flex;
+    justify-content: center;
+    margin-left: 250px;
+}
+.infos ul{
+    list-style: none;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+.infos li{
+    float: left;
+    margin: 0px 20px;
+    font-size: 15px;
+    padding: 0px 0px 7px 0px;
+}
+.infos li:hover{
+    border-bottom: 4px solid black;
+    color: hsl(0, 0%, 27%);
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.link{
+    text-decoration: none;
+}
+.search{
+    border: none;
+    height: 32px;
+    background-color: rgb(230, 230, 230);
+    padding-left: 7px;
+    z-index: -1;
+    width: 170px;
+    margin-left: 30px;
+}
+.search-txt{
+    display: inline-block;
+    position: relative;
+    bottom: 7px;
+    color: black;
+}
+.fa-magnifying-glass{
+    position: absolute;
+    right: 10px;
+    z-index: 2;
+    width: auto;
+    height: 100%;
+    top: 8px;
+    font-size: 16px;
+}
+.extra-nav{
+    width: 150px;
+    height: auto;
+    display: inline-flex;
+    margin: 0px 0px 0px 26px;
+    justify-content: space-between;
+    position: relative;
+    bottom: -4px;
+}
+.extra-nav:hover{
+    cursor: pointer;
+}
+.top-nav{
+    width: 250px;
+    height: auto;
+    position: absolute;
+    top: 10px;
+    right: 60px;
+}
+.top-nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+
+}
+.top-nav ul li{
+    font-size: 10px;
+}
+.top-nav ul li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.home{
+    width: 100%;
+    height: 95vb;
+    background-color: rgb(68, 57, 41);
+    overflow: hidden;
+    position: relative;
+}
+.home video{
+    background-position: center;
+}
+
+.home-txt{
+    width: 30%;
+    height: 200px;
+    position: absolute;
+    bottom: 0px;
+    left: 100px;
+}
+.home-txt p{
+    background-color: white;
+}
+.home-txt .drop{
+    font-size: 23px;
+    font-weight: 600;
+    font-family: open-sans;
+    letter-spacing: 2px;
+    width: auto;
+    height: 20px;
+    text-align: center;
+    display: inline;
+    position: relative;
+    bottom: 15px;
+}
+.home-txt .root{
+    font-size: 16px;
+    width: auto;
+    height: 20px;
+    text-align: center;
+    display: inline;
+}
+.shop{
+    margin-top: 11px;
+    height: 56px;
+    width: 150px;
+    font-size: 14px;
+    font-weight: bold; 
+    box-shadow: 4px 4px 1px rgb(195, 192, 192);
+    border: none;
+}
+.workout{
+    width: 100%;
+    height: 85vb;
+    background-color: white;
+}
+.workout-title h1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.workout-title{
+    display: block;
+    margin: 30px 0px;
+}
+.work{
+    width: 100%;
+    height: 500px;
+    display: inline-flex;
+    justify-content: space-between;
+    flex-direction: row;
+    cursor: pointer;
+}
+.work-category{
+    width: 24%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+}
+.work-img{
+    width: 100%;
+    height: 72%;
+    display: block;
+}
+.img1{
+    background-image: url(images/strength.avif);
+    background-size: cover;
+}
+.img2{
+    background-image: url(images/intensity.avif);
+    background-size: cover;
+}
+.img3{
+    background-image: url(images/yoga.avif);
+    background-size: cover;
+}
+.img4{
+    background-image: url(images/versatility.avif);
+    background-size: cover;
+}
+.work-category h5{
+    padding: 6px;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.work-category p{
+    font-size: 14px;
+    letter-spacing: 1px;
+    padding: 6px;
+    font-weight:lighter;
+}
+.work-category .btn-shop{
+    padding: 6px 6px 6px 3px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    background-color: white;
+    border: none;
+    border-bottom: 2px solid black;
+    margin-left: 3px;
+}
+.work-category:hover{
+    border: 2px solid black;
+    transition: 0s;
+}
+.work-category .btn-shop:hover{
+    background-color: rgb(245, 244, 244);
+    transition: 0s;
+}
+.legDay{
+    width: 100%;
+    height: 80vb;
+}
+.mainPic{
+    width: 100%;
+    height: 80vb;
+    display: inline-flex;
+    justify-content: space-between;
+}
+.pic{
+    width: 49.8%;
+    height: 100%;
+    cursor: pointer;
+}
+.pic .btn-shop{
+    padding: 6px 6px 6px 3px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    background-color: white;
+    border: none;
+    border-bottom: 2px solid black;
+    margin-left: 3px;
+}
+.squatPic{
+    width: 100%;
+    height: 75%;
+    background-image: url(images/legSquat.avif);
+    background-size: cover;
+    display: block;
+}
+.legPic{
+    width: 100%;
+    height: 75%;
+    background-image: url(images/manLeg.avif);
+    background-size: cover;
+    display: block;
+}
+.mainPic h4, p{
+    padding: 6px;
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, sans-serif;
+}
+.mainPic p{
+    font-weight: 400;
+}
+#pic1:hover{
+    border: 2px solid black;
+    transition: 0s;
+}
+#pic2:hover{
+    border: 2px solid black;
+    transition: 0s;
+}
+.pic .btn-shop:hover{
+    background-color: rgb(245, 244, 244);
+    transition: 0s;
+    cursor: pointer;
+}
+
