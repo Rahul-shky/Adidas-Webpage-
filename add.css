@@ -295,4 +295,51 @@ body{
     transition: 0s;
     cursor: pointer;
 }
+.gender-shop{
+    width: 100%;
+    height: 58vb;
+    margin-top: 40px;
+}
+.gender-shop h1{
+    margin-bottom: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main-gender{
+    width: 100%;
+    height: 370px;
+}
+.men-shop, .women-shop{
+    width: 49%;
+    height: 370px;
+    float: left;
+    margin: 0px 5px;
+    cursor: pointer;
+}
+.menPic{
+    width: 100%;
+    height: 300px;
+    background-image: url(images/shopMen.avif);
+    background-size: cover;
+}
+.womenPic{
+    width: 100%;
+    height: 300px;
+    background-image: url(images/womenShop.avif);
+    background-size: cover;
+}
+.main-gender button{
+    padding: 6px 6px 6px 3px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    background-color: white;
+    border: none;
+    border-bottom: 2px solid black;
+    margin-left: 3px;
+    margin-top: 20px;
+}
+.men-shop:hover, .women-shop:hover{
+    border: 1px solid black;
+}
+
 
